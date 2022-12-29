@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Login | Chat</title>
+  </head>
+  <body>
+    <div class="login-con">
+      <h1>Login</h1>
+      <div class="login-form">
+        <div class="login">
+          <span>Username</span>
+          <input
+            type="text"
+            placeholder="Type your username"
+            id="username"
+            autocomplete="off"
+          />
+          <img src="img/user.png" alt="" />
+        </div>
+        <div class="login">
+          <span>Password</span>
+          <input
+            type="password"
+            placeholder="Type your password"
+            id="password"
+          />
+          <img src="img/padlock.png" alt="" />
+        </div>
+        <p>Forgot password?</p>
+        <button onclick="getInfo()">login</button>
+      </div>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
